@@ -1,11 +1,11 @@
 //colors
-$footer-text-color: #545454;
 $primary-text-color: #000000;
 $secondary-text-color: #ffffff;
 $accent-color: #ff6600;
 $accent-hover-color: #ff6600;
 $logo-color: #818181;
 $modal-topic-color: #8c8c8c;
+$footer-text-color: #545454;
 //shadows
 $btn-shadow-color: rgba(250, 100, 0, 0.6);
 //font
@@ -35,7 +35,7 @@ $max-width: 767px;
 .header {
     height: 230px;
     padding-top: 46px;
-    background-color: $footer-text-color;;
+    background-color: $logo-color;;
 
 }
 .header--home {
@@ -208,7 +208,7 @@ $max-width: 767px;
 
     &:hover> {
         svg {
-            stroke: $footer-text-color;
+            stroke: $logo-color;
         }
 
         span {
