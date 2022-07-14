@@ -15,6 +15,7 @@ $mob: 320px;
 $tab: 768px;
 $desk: 1280px;
 $max-width: 767px;
+
 //gradient
 // $linear-gradient: linear-gradient(to right, rgba(0, 0, 0, 0.56), rgba(0, 0, 0, 0.56));
 // $linear-gradient: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0));
@@ -30,6 +31,7 @@ $max-width: 767px;
 //     width: 1px !important;
 //     overflow: hidden;
 // }
+
 .header {
     height: 230px;
     padding-top: 46px;
@@ -167,6 +169,7 @@ $max-width: 767px;
 
     &-list {
         display: flex;
+        list-style: none;
     }
 
     &-item {
