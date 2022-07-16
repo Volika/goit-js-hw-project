@@ -1,3 +1,8 @@
+    svg path {
+        stroke: inherit;
+        stroke-width: inherit;
+        fill: inherit;
+    }
 //colors
 $primary-text-color: #000000;
 $secondary-text-color: #ffffff;
@@ -204,11 +209,15 @@ $max-width: 767px;
         @media screen and (min-width: $tab) {
             margin-right: 10px;
         }
+        &:hover {
+                stroke: red;
+                fill: red;
+            }
     }
 
     &:hover> {
         svg {
-            stroke: $logo-color;
+            stroke: $accent-color;
         }
 
         span {
@@ -228,7 +237,10 @@ $max-width: 767px;
         // transition: color $animation-duration $timing-function;
     }
 }
-
+.header__logo svg:hover {
+    stroke: red;
+    fill: red;
+}
 .header__nav-btn {
     background-color: transparent;
     border: none;
